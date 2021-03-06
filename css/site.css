@@ -107,6 +107,16 @@ a {
     padding-top: 15px;
 }
 
+.skill{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.skill p {
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 600px) {
     .cv-content{
         padding-left: 10px;
