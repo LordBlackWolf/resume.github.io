@@ -37,7 +37,10 @@ font-size: 2em;
 }
 
 a {
-    color: #212529 !important;
+    color: #212529 !important;    
+}
+
+.links { 
     text-decoration: underline;
 }
 .cv-content i {
