@@ -1,317 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=11" />
 
-    <link href="./styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: 'Roboto', serif;
-            font-size: 48px;
-        }
-    </style>
+  <title>Scrolling Nav - Start Bootstrap Template</title>
 
-    <title>Brett Robb</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <link href="css/site.css" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 
-<body>
-    <div class="header">
-        <div class="cv-content">
-            <div class="title col-4">Brett Robb</div>
-            <div class="role col-4">Software Engineer</div>
-        </div>
+<body id="page-top">
 
+  <header class="text-white">
+    <div class="container text-left">
+      <h1 class="title">Brett Robb</h1>
+      <div class="role">Software Engineer</div>
     </div>
-    <div class="row mb-15">
-        <div class="col-4">
-            <div class="cv-content contact-details">
-                <i class="fas fa-envelope-open-text"></i>
-                <span>
-                    <a class="dark-link" href="mailto:brett.j.robb@gmail.com">brett.j.robb@gmail.com</a>
-                </span>
-            </div>
+  </header>
+
+  <div class="container details">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4">
+        <div class="cv-content">
+          <i class="fas fa-envelope-open-text"></i>
+          <span>
+            <a class="dark-link" href="mailto:brett.j.robb@gmail.com">brett.j.robb@gmail.com</a>
+          </span>
         </div>
-        <div class="col-4">
-           
+      </div>  
+      <div class="col-sm-12 col-lg-4">
+ 
+      </div>
+      <div class="col-sm-12 col-lg-4 ">
+        <div class="cv-content phone">
+          <i class="fas fa-phone"></i>
+          <span>
+            <a class="dark-link" href="tel:0450068229">0450068229</a>
+          </span>
         </div>
-        <div class="col-4 contact-details" style="padding-right:67px; text-align: right;">
-            <div class="cv-content phone">
-                <i class="fas fa-phone"></i>
-                <span>
-                    <a class="dark-link" href="tel:0450068229">0450068229</a>
-                </span></div>
-        </div>
+      </div>
     </div>
 
     <div class="border-details"></div>
+  </div>
 
-    <div class="row ">
-        <div class="col-8 border-right-details">
-            <div class="cv-content">
-                <div class="header-detail">
-                    Profile
-                </div>
-                <div class="details">
-                    I have spent the last years 13 years developing distributed applications varying from Angular apps
-                    to multi-threaded Window Services.
-                    My experience ranges from modernising and extending the behaviour of legacy systems to leading
-                    greenfield projects from inception through to deployment.
-                    <br />                    
-                </div>
-            </div>
-            <div class="cv-content employment">
-                <div class="header-detail">
-                    Employment History
-                </div>
-                <div class="job">
-                    <div class="details em-role fw-600">
-                        Software Engineer - Team Lead at ParkIQ
-                    </div>
-                    <div class="details company duration">
-                        February 2015 - Present <span> <i class="fas fa-circle duration-dot"></i></span> 5 years
-                    </div>
 
-                    <div class="details company employment-desc">
-                        <ul>
 
-                            <li>Led a team that developed <a class="links" href="https://watermelonparking.com"
-                                    target="_blank">Watermelon Parking</a>
-                                system</li>
-                            
-                            <li>Created Command Switch API which allows users to remotely control car park gates,
-                                push real time tariffs and open shutter doors</li>
-                            <li>Created .Net Core API which modernised legacy scheduled tasks to use QUARTZ Jobs</li>
-                            <li>Implemented single sign-on API that implements OpenId Connect & OAUTH 2.0</li>
-                            <li>Modernised web form application to AngularJS & WebAPI 2.0</li>
-                            <li>Improved software release cycle by automating manual processes</li>
-                            <li>Used dependency injection and unit tests to improve code quality and assurance</li>
-                            <li>Introduced pull requests and GIT Flow to my team</li>
-                            <li>Managed software releases for multiple applications</li>
-                            <li>Developed numerous car park integrations using third party SDKs</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="job">
-                    <div class="details em-role fw-600">
-                        Software Developer - at Digital Turbine
-                    </div>
-                    <div class="details company duration">
-                        March 2014 - Janurary 2015 <span> <i class="fas fa-circle duration-dot"></i></span> 11 months
-                    </div>
-
-                    <div class="details company employment-desc">
-                        <ul>
-                            <li>Modernised legacy system to MVC architecture</li>
-                            <li>Created application that injected code into APKs to allow subscription payments for EA
-                                Sports Android games</li>
-                            <li>Agile training</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="job">
-                    <div class="details em-role fw-600">
-                        Ballast Train Operator - at Laing O'Rourke
-                    </div>
-                    <div class="details company duration">
-                        June 2012 - December 2013 <i class="fas fa-circle duration-dot"></i></span> 1 year 7 months
-                    </div>
-
-                    <div class="details company employment-desc">
-                        <ul>
-                            <li>Ballast Train Operator</li>
-                            <li>Track Construction</li>
-                            <li>Track Protection Officer</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="details em-role fw-600">
-                        Software Engineer - at Step-Up Solutions
-                    </div>
-                    <div class="details company duration">
-                        March 2009 - May 2012 <span> <i class="fas fa-circle duration-dot"></i></span> 3 years 3 months
-                    </div>
-
-                    <div class="details company employment-desc">
-                        <ul>
-                            <li>Developed Shift Integration System - Shift provides complete car park management, from
-                                payment and reconciliation to analysis and reporting</li>
-                            <li>Developed ParkIQ Web Service solution for updating site information for multiple
-                                clients</li>
-                            <li>Created scheduled tasks to automatically retrieve car park rates, update shift data and
-                                reconcile payment transactions</li>
-                            <li>Responsible for installing and updating software at over 300 sites throughout Australia,
-                                Malaysia and South Africa</li>
-                            <li>Worked closely with clients to establish system requirement documents</li>
-                            <li>Strengthened development methodologies by introducing a code quality and code review
-                                documents</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div style="height: 225px"></div>
-
-                <div class="job">
-                    <div class="details em-role fw-600">
-                        Analyst Programmer - at Cortell
-                    </div>
-                    <div class="details company duration">
-                        January 2009 - Feb 2012 <span> <i class="fas fa-circle duration-dot"></i></span> 1 year 2
-                        months
-                    </div>
-
-                    <div class="details company employment-desc">
-                        <ul>
-                            <li>Assisted with the design, development and integration of a new accounting system</li>
-                            <li>Implemented multiple currencies convertor</li>
-                            <li>Responsible for writing scripts to T-SQL scripts to create, delete and alter data</li>
-                            <li>Designed and implemented client side updates for the system using JavaScript</li>
-                            <li>Bug fixing after converting the solution from Delphi to C#</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="cv-content employment">
-                <div class="header-detail">
-                    Education
-                </div>
-                <div class="details">
-
-                    <div>
-                        <div class="fw-600">
-                            Waikato Institute of Technology
-                        </div>
-                        <div class="degree pbb-5">
-                            Bachelor of Information Technology - Top Graduating Student
-                        </div>
-                        <div class="details company duration degree-dates">
-                            February 2005 - November 2008
-                        </div>
-                    </div>
-                    <div class="pt-20">
-                        <div class="fw-600 pbb-5">
-                            Francis Douglas Memorial College
-                        </div>
-                        <div class="details company duration degree-dates">
-                            January 1994 - December 1999
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cv-content employment">
-                <div class="header-detail">
-                    Honours and Awards
-                </div>
-                <div class="details">
-                    <ul>
-                        <li>Microsoft Certified Professional: Exam 70-483 Programming in C#</li>
-                        <li>Best Bachelor of Information Technology Project Team award</li>
-                        <li>School of Information Technology Medal for top graduating student </li>
-                        <li>Bonded Merit Scholarship recipient for academic achievement</li>
-                        <li>Straight A Student - Transcript on request</li>
-                    </ul>
-
-                </div>
-            </div>
-            <i class="fas fa-rectangle-wide"></i>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor,
+            provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa
+            exercitationem, in, quo totam.</p>
         </div>
-        <div class="col-4">
- 
-            <div class="header-detail">
-                Current Languages
-                <div class="skill">
-                    <div class="details">C# .Net Core & Framework</div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                </div>
-                <div class="skill">
-                    <div class="details">AngularJS - Angular 9.0</div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star empty"></span>
-                </div>
-                <div class="skill">
-                    <div class="details">JavaScript</div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star empty"></span>
-                </div>
-                <div class="skill">
-                    <div class="details">SQL Server - TSQL</div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star empty"></span>
-                </div>
-
-                <div class="skill">
-                    <div class="details">SQL Server - Admin</div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star empty"></span>
-                    <span class="fa fa-star empty"></span>
-                </div>
-            </div>
-            <div class="header-detail">
-                Skills
-                <div class="skill">
-                    <div class="details">.Net 2.0 - 4.7.2</div>
-                    <div class="details">.Net Core API</div>
-                    <div class="details">WebAPI 2.0</div>
-                    <div class="details">MVC & Razor Pages</div>
-                    <div class="details">Web & Windows Forms</div>
-                    <div class="details">Web Services</div>
-                    <div class="details">Angular CLI</div>
-                    <div class="details">IIS</div>
-                    <div class="details">Desgin Patterns</div>
-                    <div class="details">HTML, JQuery, AJAX & CSS</div>
-                    <div class="details">Bootstrap & Angular Material</div>
-                    <div class="details">AMCharts, ChartJS, SyncFusion</div>
-                    <div class="details">Crystal & Jasper Reports</div>
-                    <div class="details">PCI-DSS Level 1 software compliant developer</div>
-                    <div class="details">Visual Studio & Visual Studio Code</div>
-                    <div class="details">Git & SVN</div>
-                    <div class="details">Jira, Source Tree, Bit Bucket & Bamboo</div>
-                </div>
-            </div>
-
-
-            <div class="header-detail">
-                Links
-                <div class="skill">
-                    <div class="details"><a href="https://www.linkedin.com/in/brett-robb-1b42b321/"
-                            target="_blank">Linkedin Profile</a></div>
-                    <div class="details"><a href="https://watermelonparking.com" target="_blank">Watermelon Parking</a>
-                    </div>
-                    <div class="details"><a href="https://www.parkiq.net" target="_blank">ParkIQ</a></div>
-                    <div class="details"><a href="https://www.digitalturbine.com" target="_blank">Digital Turbine</a>
-                    </div>
-                    <div class="details"><a href="https://www.mindfull.nz/mindfull-means" target="_blank">Cortell</a>
-                    </div>                   
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </section>
 
 </body>
 
