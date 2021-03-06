@@ -120,6 +120,10 @@ a {
     margin-bottom: 0;
 }
 
+.job{
+ margin: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     .cv-content{
         padding-left: 10px;
