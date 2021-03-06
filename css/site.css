@@ -124,5 +124,9 @@ a {
     .border-right-details {
         border-right:none;
     }
+
+    .skill-margin {
+        margin-left: 0px;
+    }
 }
 
