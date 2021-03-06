@@ -51,8 +51,26 @@ a {
     font-weight: 600;
     font-style: italic;
     margin-bottom: 15px;
+    font-size: 1.25em;
 }
 
+.duration{
+    color: #ababab;
+    font-style: italic;
+    padding-top:0;
+    padding-bottom: 10px;
+}
+
+.duration-dot {
+    font-size: 2px;
+    position: relative;
+    top: -4px;
+    left: 1px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
 
 @media only screen and (max-width: 600px) {
     .cv-content{
